@@ -42,7 +42,11 @@ function animatePress(currentColor){
 } , 100);
 }
 
-$(document).keypress(function(){
+$(".start-button").click(function(){
+  $(".start-button").addClass("pressed");
+  setTimeout(function () {
+    $(".start-button"). removeClass("pressed");
+} , 100);
   if (!started){
     nextSequence();
     $("#level-title").text("Level "+level);
