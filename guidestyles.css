@@ -1,0 +1,14 @@
+body{
+  background-image: url(rules-bg.jpg);
+  margin: 5%;
+
+  color: #FFFFDE;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  color: #FF8C8C;
+}
