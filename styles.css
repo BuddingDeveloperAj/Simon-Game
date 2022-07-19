@@ -22,7 +22,7 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 5px solid black;
   border-radius: 20%;
 }
 
@@ -32,19 +32,21 @@ body {
 }
 
 .red {
-  background-color: red;
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
 }
 
 .green {
-  background-color: green;
+     background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+
 }
 
 .blue {
-  background-color: blue;
-}
+  /* background-color: blue; */
+  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+ }
 
 .yellow {
-  background-color: yellow;
+     background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
 }
 
 .pressed {

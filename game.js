@@ -43,6 +43,7 @@ function animatePress(currentColor){
 }
 
 $(".start-button").click(function(){
+  $("h2").text("Restart");
   $(".start-button").addClass("pressed");
   setTimeout(function () {
     $(".start-button"). removeClass("pressed");
